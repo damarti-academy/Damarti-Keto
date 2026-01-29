@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Damarti Keto</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background-image: url("damartiketob.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-comunidad {
+        width: 90%;
+        max-width: 900px;
+        height: 90px;
+        background: #2e2e2e;
+        border-radius: 60px;
+        display: flex;
+        align-items: center;
+        padding: 10px 25px;
+        text-decoration: none;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .boton-comunidad:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+    }
+
+    .boton-comunidad img {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        margin-right: 20px;
+        border-radius: 50%;
+        background: white;
+        padding: 5px;
+    }
+
+    .boton-texto {
+        flex: 1;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+        .boton-texto {
+            font-size: 1.3rem;
+        }
+
+        .boton-comunidad {
+            height: 75px;
+        }
+
+        .boton-comunidad img {
+            height: 45px;
+            width: 45px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<a href="https://chat.whatsapp.com/I81g791wrh0HSIv9EdeBw7?mode=gi_t" class="boton-comunidad" target="_blank" style="margin-bottom:20px;">
+    <img src="whatsapp.png" alt="Comunidad WhatsApp">
+    <div class="boton-texto">💚Unete aquí a la comunidad🤍</div>
+</a>
+
+<a href="https://go.hotmart.com/K104147081G" class="boton-comunidad" target="_blank">
+    <img src="ketoayuno.png" alt="Keto Ayuno">
+    <div class="boton-texto">💚Lee aquí el eBook Keto + Ayuno💙</div>
+</a>
+
+<!-- Botón Comunidad WhatsApp -->
+<a href="https://chat.whatsapp.com/I81g791wrh0HSIv9EdeBw7?mode=gi_t" class="boton-comunidad" target="_blank" style="margin-top:20px;">
+    <img src="whatsapp.png" alt="Comunidad WhatsApp">
+    <div class="boton-texto">💚Unete aquí a la comunidad🤍</div>
+</a>
+
+</body>
+</html>
